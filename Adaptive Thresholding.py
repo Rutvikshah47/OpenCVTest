@@ -2,7 +2,7 @@ import cv2 as cv
 import os
 import numpy as np
 
-img = cv.imread(os.getcwd()+'/Images/sudoku.jpeg', 0)
+img = cv.imread(os.getcwd()+'/Images/Shuttlecock1.jpg', 0)
 
 _, th1 = cv.threshold(img, 127, 255, cv.THRESH_BINARY)
 
